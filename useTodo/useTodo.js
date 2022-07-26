@@ -1,7 +1,6 @@
 import { useEffect, useReducer } from "react";
-import { TodoList  } from "../08-useReducer/TodoList";
-import { todoReducer } from "../08-useReducer/TodoReducer";
 
+import { todoReducer } from "./TodoReducer";
 export const useTodo = () => {
 
      const init = () => {
